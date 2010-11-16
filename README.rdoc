@@ -4,13 +4,9 @@ A Gosu gem to help teach kids.  Currently it is only reading for kindergarteners
 
 == Features
 
-Check out the app.
+  $ gem install training_wheels
 
-  bundle install
-
-  ruby lib/training_wheels.rb
-
-Have I been lazy thus far? Yes, its not really a gem.  But it will be.
+  $ training_wheels
 
 The game itself is trivial, but for now you need to play with your child.
 There is a list of reading words which are used. The child must guess them
