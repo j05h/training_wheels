@@ -11,7 +11,7 @@ class TrainingWheels < Gosu::Window
     @ohno   = Gosu::Sample.new self, 'sounds/oh_no.wav'
     @word   = Word.new self
     @start = Time.now
-    @second = @time = 5
+    @second = @time = 15
   end
 
   def update
@@ -51,7 +51,7 @@ class TrainingWheels < Gosu::Window
   def correct
     @start = Time.now
     @rocket.play
-    @score = @score + (100 * @second)
+    @score = @score + (10 * @second)
     @word.correct
   end
 end
@@ -73,7 +73,7 @@ class Word
   end
 
   def word_list
-    %w{and to it for a up so dad the said dog I am cat my can you an go in is of like do see he she me mom no we Donovan Kleinpeter at}
+    %w{and to it for a up so dad the said dog I am cat my can you an go in is of like do see he she me mom no we at}
   end
 
   def next
