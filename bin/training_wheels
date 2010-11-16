@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require File.dirname(__FILE__) + '/../lib/training_wheels'
+
+window = TrainingWheels.new
+window.show

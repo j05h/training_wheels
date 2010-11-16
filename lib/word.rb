@@ -30,14 +30,14 @@ class Word
     puts "You know #{current} (#{@words.delete(current)})" if @words[current] > 2
     self.next
     return count
-  end/
+  end
 
   def vert
-    (@window.width - @font.text_width(current))/2
+    @window.width/2 - @font.text_width(current)/2
   end
 
   def horizon
-    (@window.height - @font.height)/2
+    @window.height/2 - @font.height/2
   end
 
   def color

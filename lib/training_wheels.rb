@@ -60,7 +60,3 @@ class TrainingWheels < Gosu::Window
     @word.correct
   end
 end
-
-window = TrainingWheels.new
-window.show
-
