@@ -14,4 +14,21 @@ within the alloted time. If they do, simply hit the space bar, and they'll
 get another word. If not, they lose points and continue. Knowing a word 
 3 times removes it from the list.
 
+== Todo
+
+More fun features
+
+* Fire works
+* Winner screen
+* High score list
+* More excitement for large scores
+* Solo games like in http://www.kidzone.ws/dolch/kindergarten.htm
+* Potential for using Markov chains to build sentences
+
+Improvements
+* Levels and select screen
+* Opening screen
+* Custom word lists
+* Ask for child's name
+* Throw pictures into the mix to help
 
