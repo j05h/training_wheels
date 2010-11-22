@@ -1,0 +1,54 @@
+Pre-primer 	Primer 	First 	Second 	Third 	Nouns 	
+a 	all 	after 	always 	about 	apple 	home
+and 	am 	again 	around 	better 	baby 	horse
+away 	are 	an 	because 	bring 	back 	house
+big 	at 	any 	been 	carry 	ball 	kitty
+blue 	ate 	as 	before 	clean 	bear 	leg
+can 	be 	ask 	best 	cut 	bed 	letter
+come 	black 	by 	both 	done 	bell 	man
+down 	brown 	could 	buy 	draw 	bird 	men
+find 	but 	every 	call 	drink 	birthday 	milk
+for 	came 	fly 	cold 	eight 	boat 	money
+funny 	did 	from 	does 	fall 	box 	morning
+go 	do 	give 	don't 	far 	boy 	mother
+help 	eat 	going 	fast 	full 	bread 	name
+here 	four 	had 	first 	got 	brother 	nest
+I 	get 	has 	five 	grow 	cake 	night
+in 	good 	her 	found 	hold 	car 	paper
+is 	have 	him 	gave 	hot 	cat 	party
+it 	he 	his 	goes 	hurt 	chair 	picture
+jump 	into 	how 	green 	if 	chicken 	pig
+little 	like 	just 	its 	keep 	children 	rabbit
+look 	must 	know 	made 	kind 	Christmas 	rain
+make 	new 	let 	many 	laugh 	coat 	ring
+me 	no 	live 	off 	light 	corn 	robin
+my 	now 	may 	or 	long 	cow 	Santa Claus
+not 	on 	of 	pull 	much 	day 	school
+one 	our 	old 	read 	myself 	dog 	seed
+play 	out 	once 	right 	never 	doll 	sheep
+red 	please 	open 	sing 	only 	door 	shoe
+run 	pretty 	over 	sit 	own 	duck 	sister
+said 	ran 	put 	sleep 	pick 	egg 	snow
+see 	ride 	round 	tell 	seven 	eye 	song
+the 	saw 	some 	their 	shall 	farm 	squirrel
+three 	say 	stop 	these 	show 	farmer 	stick
+to 	she 	take 	those 	six 	father 	street
+two 	so 	thank 	upon 	small 	feet 	sun
+up 	soon 	them 	us 	start 	fire 	table
+we 	that 	then 	use 	ten 	fish 	thing
+where 	there 	think 	very 	today 	floor 	time
+yellow 	they 	walk 	wash 	together 	flower 	top
+you 	this 	were 	which 	try 	game 	toy
+	too 	when 	why 	warm 	garden 	tree
+	under 		wish 		girl 	watch
+	want 		work 		good-bye 	water
+	was 		would 		grass 	way
+	well 		write 		ground 	wind
+	went 		your 		hand 	window
+	what 				head 	wood
+	white 				hill 	
+	who 					
+	will 					
+	with 					
+	yes 			
+

@@ -1,7 +1,8 @@
 class Text
   attr_accessor :value, :font, :color, :vertical, :horizontal, :window
+  attr_writer   :width
 
-  def initialize window, val, font, v, h, color = 0xffffff00
+  def initialize window, val, font, v, h, color = 0xff000000
     self.window     = window
     self.value      = val
     self.font       = font
@@ -14,8 +15,12 @@ class Text
     (vertical == :top)  ? 10 : window.height - font.height - 5
   end
 
+  def width
+    @width ? @width : font.text_width(value)
+  end
+
   def horizon
-    (horizontal == :left) ? 10 : window.width - font.text_width(value) - 10
+    (horizontal == :left) ? 10 : window.width - self.width - 10
   end
 
   def draw

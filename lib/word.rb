@@ -13,9 +13,11 @@ class Word
 
   def word_list
     %w{and to it for a up so dad the said dog I am cat my can you an go in is of like do see he she me mom no we at}
+    %w{and baby is it me the to}
   end
 
   def next
+    @played = false
     @current = @words.keys[rand(1000)%@words.keys.size]
   end
 
@@ -38,6 +40,15 @@ class Word
 
   def horizon
     @window.height/2 - @font.height/2
+  end
+
+  def play
+    file = "sounds/words/#{current}.wav"
+    if File.exists?(file) && !@played
+      @sample = Gosu::Sample.new(@window, file).play
+    else
+      false
+    end
   end
 
   def color
