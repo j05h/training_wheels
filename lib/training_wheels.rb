@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'gosu'
 
-%w{word text timer}.each do |lib|
+%w{word text timer button}.each do |lib|
   require File.dirname(__FILE__) + '/' + lib
 end
 
@@ -19,8 +19,8 @@ class TrainingWheels < Gosu::Window
     @scoreboard       = Text.new self, 0, @font, :bottom, :left
     @review_text      = Text.new(self, 'Review', @font, :top, :center, 0xffff0000)
     @background_image = Gosu::Image.new self, "images/background.png", true
-    @correct_image    = Gosu::Image.new self, "images/correct.png", true
-    @wrong_image      = Gosu::Image.new self, "images/wrong.png", true
+    @correct_image    = Button.new self, "images/correct.png"
+    @wrong_image      = Button.new self, "images/wrong.png"
     @pointer          = Gosu::Image.new self, "images/pointer.png", true
 
     @timer.width      = 50
@@ -52,8 +52,9 @@ class TrainingWheels < Gosu::Window
 
     @background_image.draw 0,0,0
     icon_heights = @correct_image.height + @wrong_image.height
-    @correct_image.draw self.width-@correct_image.width-10, (self.height - icon_heights - 75)/2, 1
-    @wrong_image.draw self.width-@correct_image.width, (self.height - icon_heights + 225)/2, 1
+    @correct_image.draw self.width-@correct_image.width-10, (self.height - icon_heights - 75)/2
+    draw_point @correct_image.x, @correct_image.y
+    @wrong_image.draw self.width-@correct_image.width, (self.height - icon_heights + 225)/2
     @pointer.draw self.mouse_x, self.mouse_y, 1
 
     if @review
@@ -75,8 +76,8 @@ class TrainingWheels < Gosu::Window
     when Gosu::Button::KbSpace
       correct unless @review
     when Gosu::Button::MsLeft
-      correct #if within @correct_image
-      wrong if within @wrong_image
+      correct if @correct_image.within mouse_x, mouse_y
+      wrong   if @wrong_image.within mouse_x, mouse_y
     end
   end
 
