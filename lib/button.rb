@@ -10,7 +10,7 @@ class Button < Gosu::Image
     self.y = y
   end
 
-  def within other_x, other_y
+  def within? other_x, other_y
     other_x > x && other_x < (x + self.width) &&
     other_y > y && other_y < (y + self.height)
   end
